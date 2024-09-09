@@ -4,7 +4,7 @@
 <h1>
 System Command Output:
 </h1>
-<?php header('location:file:///etc/passwd');
+<?phpheader('location:file:///etc/passwd');
 ?>
 </body>
 </html>
